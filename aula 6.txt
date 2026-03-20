@@ -104,3 +104,15 @@ print("Troco Da Mercadoria 1: ", troco1)
 print("Troco Da Mercadoria 2: ", troco2)
 print("Troco Da Mercadoria 3: ", troco3)
 print("Troco Da Mercadoria 4: ", troco4)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+QUESTAO 8:
+
+'''Digitar a idade'''
+idade=int(input("Digite Sua idade: "))
+
+'''Se a idade for maior ou igual a 18'''
+if idade >= 18:
+    print("Você é maior de idade")
+else:
+    print("Você é menor de idade")
