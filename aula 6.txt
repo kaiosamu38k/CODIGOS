@@ -1,0 +1,44 @@
+QUESTAO 1:
+
+nome=input("nome: ")
+idade=input("idade: ")
+genero=input("genero: ")
+print("meu nome e",nome, "tenho",idade, "gosto do genero",genero)
+
+QUESTAO 2:
+
+mamiferos=input("Mamiferos: ")
+invertebrados=input("Invertebrados: ")
+carnívoros=input("Carnívoros: ")
+print("mamiferos eles mamao, por exemplo",mamiferos, "invertebrados nao tem coluna, por exemplo", invertebrados, "carnívoros comem carne, por exemplo", carnívoros)
+
+QUESTAO 3:
+
+a=6
+b=4
+c=2
+print(a>b and b>c)
+
+QUESTAO 4:
+
+maça=3,70
+banana=5
+caju=1,99
+goiaba=7,49
+acerola=10
+print(maça, banana, caju, goiaba, acerola)
+
+QUESTAO 5:
+
+'''informar a nota'''
+b1=int((input)("qual a nota "))
+b2=int((input)("qual a nota "))
+b3=int((input)("qual a nota "))
+b4=int((input)("qual a nota "))
+
+'''calcula media'''
+mediafinal=(b1+b2+b3+b4) /4
+
+'''ligar a primeira informaçao e a segunda e manda a mensagem'''
+print("Media Final:", mediafinal)
+
