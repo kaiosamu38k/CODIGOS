@@ -3,6 +3,7 @@ QUESTAO 1:
 nome=input("nome: ")
 idade=input("idade: ")
 genero=input("genero: ")
+
 print("meu nome e",nome, "tenho",idade, "gosto do genero",genero)
 
 QUESTAO 2:
@@ -10,6 +11,7 @@ QUESTAO 2:
 mamiferos=input("Mamiferos: ")
 invertebrados=input("Invertebrados: ")
 carnívoros=input("Carnívoros: ")
+
 print("mamiferos eles mamao, por exemplo",mamiferos, "invertebrados nao tem coluna, por exemplo", invertebrados, "carnívoros comem carne, por exemplo", carnívoros)
 
 QUESTAO 3:
@@ -17,16 +19,31 @@ QUESTAO 3:
 a=input("digite seu numero: ")
 b=input("digite seu numero: ")
 c=input("digite seu numero: ")
+
 print(a>b and b>c)
 
 QUESTAO 4:
 
-maça=3,70
-banana=5
-caju=1,99
-goiaba=7,49
-acerola=10
-print(maça, banana, caju, goiaba, acerola)
+'''Digitar Qual a Fruta'''
+f1=input("Qual a Fruta: ")
+f2=input("Qual a Fruta: ")
+f3=input("Qual a Fruta: ")
+f4=input("Qual a Fruta: ")
+f5=input("Qual a Fruta: ")
+
+'''Qual o Valor Da Fruta'''
+v1=float(input("Qual O Valor Da Fruta: "))
+v2=float(input("Qual O Valor Da Fruta: "))
+v3=float(input("Qual O Valor Da Fruta: "))
+v4=float(input("Qual O Valor Da Fruta: "))
+v5=float(input("Qual O Valor Da Fruta: "))
+
+'''Imprimir Frutas e Valores'''
+print(f1,v1)
+print(f2,v2)
+print(f3,v3)
+print(f4,v4)
+print(f5,v5)
 
 QUESTAO 5:
 
