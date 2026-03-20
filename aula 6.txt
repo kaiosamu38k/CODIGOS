@@ -14,9 +14,9 @@ print("mamiferos eles mamao, por exemplo",mamiferos, "invertebrados nao tem colu
 
 QUESTAO 3:
 
-a=6
-b=4
-c=2
+a=input("digite seu numero: ")
+b=input("digite seu numero: ")
+c=input("digite seu numero: ")
 print(a>b and b>c)
 
 QUESTAO 4:
