@@ -22,10 +22,12 @@ print("mamiferos eles mamao, por exemplo:", a1, "invertebrados nao tem coluna, p
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 QUESTAO 3:
 
-a=input("digite seu numero: ")
-b=input("digite seu numero: ")
-c=input("digite seu numero: ")
+'''Declarar Numeros Ja Pre-Definidos'''
+a=6
+b=4
+c=2
 
+'''Imprimir o resultado da comparação'''
 print(a>b and b>c)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -68,3 +70,37 @@ mediafinal=(b1+b2+b3+b4) /4
 print("Media Final: ", mediafinal)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+QUESTAO 6:
+
+a=input("digite seu numero: ")
+b=input("digite seu numero: ")
+c=input("digite seu numero: ")
+
+print(a>b and b>c)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+QUESTAO 7:
+
+'''Declarar Valor Da Mercadoria'''
+vm1=float(input("Valor Da Mercadoria: "))
+vm2=float(input("Valor Da Mercadoria: "))
+vm3=float(input("Valor Da Mercadoria: "))
+vm4=float(input("Valor Da Mercadoria: "))
+
+'''Declarar Valor Pago'''
+vp1=float(input("Valor Pago: "))
+vp2=float(input("Valor Pago: "))
+vp3=float(input("Valor Pago: "))
+vp4=float(input("Valor Pago: "))
+
+'''Calcular Do Troco'''
+troco1=(vm1 - vp1)
+troco2=(vm2 - vp2) 
+troco3=(vm3 - vp3)
+troco4=(vm4 - vp4)
+
+'''Imprimir o Resultado'''
+print("Troco Da Mercadoria 1: ", troco1)
+print("Troco Da Mercadoria 2: ", troco2)
+print("Troco Da Mercadoria 3: ", troco3)
+print("Troco Da Mercadoria 4: ", troco4)
