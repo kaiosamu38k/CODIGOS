@@ -1,0 +1,16 @@
+'''Digitar um Numero'''
+n1=int(input("Digite o Numero: "))
+
+'''positivo ou negativo'''
+if n1 > 0:
+    print("O numero é positivo")
+elif n1 == 0:
+    print("O numero e zero")
+else:
+    print("O numero é negativo")
+
+'''par ou impar'''
+if n1 % 2 == 0:
+    print("O numero é par")
+else:
+    print("O numero é impar")
