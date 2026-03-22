@@ -1,0 +1,10 @@
+nome = input("Digite o Nome: ")
+senha_digitada = input("Digite a senha: ")
+
+usuario = "admin"
+senha = "1234"
+
+if (nome == usuario) and (senha == senha_digitada):
+    print("Acesso permitido")
+else:
+    print("Acesso negado")
