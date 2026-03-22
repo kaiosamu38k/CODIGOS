@@ -1,0 +1,29 @@
+'''Digitar um Numero'''
+n1=int(input("Digite o Numero: "))
+n2=int(input("Digite o Numero: "))
+n3=int(input("Digite o Numero: "))
+n4=int(input("Digite o Numero: "))
+
+'''calculos'''
+soma=(n1+n2+n3+n4)
+mult=(n1*n2*n3*n4)
+sub=(n1-n2-n3-n4)
+media=(n1+n2+n3+n4) /4
+
+'''imprimir resultados'''
+print("A Soma Dos Meus Numeros é:",soma, "A Multiplicação Entre Eles é:",mult, "A Subtração é:",sub, "é a Media Entre Eles Gerou:", media)
+print(soma>mult and mult>sub and sub>media)
+
+'''positivo ou negativo'''
+if soma > 0:
+    print("O numero é positivo")
+elif soma == 0:
+    print("O numero e zero")
+else:
+    print("O numero é negativo")
+
+'''par ou impar'''
+if soma % 2 == 0:
+    print("O numero é par")
+else:
+    print("O numero é impar")
