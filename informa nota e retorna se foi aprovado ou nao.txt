@@ -1,0 +1,27 @@
+# Informar a Nota
+nota_bimestre1 = float((input)("Qual a Nota: "))
+nota_bimestre2 = float((input)("Qual a Nota: "))
+nota_bimestre3 = float((input)("Qual a Nota: "))
+nota_bimestre4 = float((input)("Qual a Nota: "))
+
+# Calcula Media
+media_final = (nota_bimestre1+nota_bimestre2+nota_bimestre3+nota_bimestre4) / 4
+
+# Imprimir Media
+print(f"Media Final: {media_final}")
+
+if media_final >= 7:
+    print("Aprovado")
+    
+else:
+    print("Recuperaçao")
+    
+    nota_recuperacao = float(input("Qual a Foi Sua Nota Da Recuperação: "))
+    media_final_aprovacao = (media_final + nota_recuperacao) / 2
+    
+    print(f"Sua Nota Final Da Recuperação é: {media_final_aprovacao}")
+    
+    if media_final_aprovacao >= 7:
+        print("Aprovado")
+    else:
+        print("Reprovado")
